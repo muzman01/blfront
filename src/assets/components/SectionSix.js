@@ -10,7 +10,7 @@ export default function SectionSix() {
             <div className="col-lg-4 p-5 p-lg-3"  data-aos="zoom-in">
                 <div className="main-card bgorange">
                     <div className="card-head">
-                        <img className="img-fluid" src={S61}/>
+                        <img className="img-fluid  m-auto" src={S61}/>
                     </div>
                     <div className="card-body">
                         <h2>
@@ -24,7 +24,7 @@ export default function SectionSix() {
             <div className="col-lg-4 p-5 p-lg-3" data-aos="zoom-in" data-aos-delay="400">
                 <div className="main-card bggreen">
                     <div className="card-head">
-                        <img className="img-fluid" src={S62} />
+                        <img className="img-fluid m-auto" src={S62} />
                     </div>
                     <div className="card-body">
                         <h2>
@@ -37,7 +37,7 @@ export default function SectionSix() {
             <div className="col-lg-4 p-5 p-lg-3" data-aos="zoom-in" data-aos-delay="600">
                 <div className="main-card bgblue">
                     <div className="card-head">
-                        <img className="img-fluid" src={S63} />
+                        <img className="img-fluid  m-auto" src={S63} />
                     </div>
                     <div className="card-body">
                         <h2>

@@ -1,6 +1,11 @@
 import React from 'react'
-import S71 from "../img/EstateInfo-1.png"
-import S72 from "../img/EstateInfo-2.png"
+import S71 from "../img/Resim1.jpg"
+import S72 from "../img/Resim2.jpg"
+import S73 from "../img/Resim3.jpg"
+import S74 from "../img/Resim4.jpg"
+import S75 from "../img/Resim5.jpg"
+import S76 from "../img/Resim6.jpg"
+import S77 from "../img/EstateInfo-2.png"
 export default function SectionSeven() {
   return (
     <section id="sectionEight" className="sectionEight" data-aos="fade-up">
@@ -57,12 +62,17 @@ export default function SectionSeven() {
 
                 </div>
                 <div className="col-xxl-7 side-right m-auto">
-                    <img className="img-fluid" src={S71} alt="" />
+                    <img className="img-fluid float-left ml-4  mt-3 gg" src={S71} alt=""/>
+                    <img className="img-fluid float-left ml-4  mt-3 gg" src={S72} alt="" />
+                    <img className="img-fluid float-left ml-4  mt-3 gg" src={S73} alt="" />
+                    <img className="img-fluid float-left ml-4  mt-3 gg" src={S74} alt="" />
+                    <img className="img-fluid float-left ml-4  mt-3 gg" src={S75} alt="" />
+                    <img className="img-fluid float-left ml-4  mt-3 gg" src={S76} alt="" />
                 </div>
             </div>
         </div>
 
-        <div className="estate-body" data-aos="fade-up">
+        {/* <div className="estate-body" data-aos="fade-up">
             <div className="row">
                 <div className="col-xxl-5 d-flex flex-column justify-content-center">
                     <div className="side-left overflow-auto">
@@ -117,7 +127,7 @@ export default function SectionSeven() {
             </div>
 
 
-        </div>
+        </div> */}
 
     </div>
 
