@@ -1,6 +1,6 @@
 import React from 'react'
-import S1 from "../img/Section-two-png-1.png"
-import S2 from "../img/Section-two-png-2.png"
+import S1 from "../img/Resim8.jpg"
+import S2 from "../img/Resim9.jpg"
 export default function SectionTwo() {
   return (
     <section id="sectionTwo" className="sectionTwo" >
