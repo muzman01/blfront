@@ -44,7 +44,7 @@ export default function Defi() {
                 </div>
                 <div
                     className="mt-4 mt-lg-0 col-xl-3 text-center text-lg-start d-flex align-items-center justify-content-center">
-                    <img className="img-fluid" width="70" src={i1} alt=""/>
+                    <img className="img-fluid m-auto" width="70" src={i1} alt=""/>
                     <button className="btn-add-meta-mask">Add To Metamask</button>
                 </div>
 
@@ -61,7 +61,7 @@ export default function Defi() {
                 <div className="col-xl-4 mb-5 mb-lg-0">
                     <div className="defi-cards">
                         <h2>Robinia</h2>
-                        <img className="img-fluid" src={i2} />
+                        <img className="img-fluid m-auto" src={i2} />
                         <p>The first DeFi 1.0 project to
                             combine the advantages of
                             DeFi 2.0.</p>
@@ -71,7 +71,7 @@ export default function Defi() {
                 <div className="col-lg-4 mb-5 mb-lg-0">
                     <div className="defi-cards">
                         <h2>Wisteria</h2>
-                        <img className="img-fluid" src={i3} />
+                        <img className="img-fluid m-auto" src={i3} />
                         <p>First DeFi 2.0 combined
                             with the yield farming 
                             system</p>
@@ -80,7 +80,7 @@ export default function Defi() {
                 <div className="col-lg-4 mb-lg-0">
                     <div className="defi-cards">
                         <h2>How to Start</h2>
-                        <img className="img-fluid" src={i4}/>
+                        <img className="img-fluid m-auto" src={i4}/>
                         <p>Youtube Tutorial <br></br>
                             Videos</p>
                     </div>
