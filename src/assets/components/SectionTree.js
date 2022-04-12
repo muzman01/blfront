@@ -23,7 +23,7 @@ export default function SectionTree() {
                         can participate..
                     </p>
                 </div>
-                <div classNameName="col-lg-6 ps-lg-5 mt-lg-0 mt-5" data-aos="zoom-in-right"  data-aos-delay="400">
+                <div className="col-lg-6 ps-lg-5 mt-lg-0 mt-5 " data-aos="zoom-in-right"  data-aos-delay="400">
                     <p>Due to the characteristics of the blockchain system, as the number of “RDF” token holders increases, the network fee borne by ReitsDAO will increase, and the dividend income that holders can actually receive will decrease. In addition,
                         the participation of bots that purchase and sell tokens only during the dividend period increases and the possibility of abuse is very high. In the case of a dividend system, it can be an advantage if it consists of a small
                         number of investors, but it is not a good token economy model for the ReitsDAO system, where small investments are possible and there are many participants.

@@ -17,7 +17,7 @@ export default function SectionFour() {
                     <div className="col-lg-4">
                         <h3>Opportunity <br></br> Cost</h3>
                     </div>
-                    <div className="col-lg-8 text-center text-lg-end"><img className="img-fluid" src={s4} alt=""/>
+                    <div className="col-lg-8 text-center  text-lg-end"><img className="img-fluid -mt-7" src={s4} alt=""/>
                     </div>
 
                 </div>
