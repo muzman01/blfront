@@ -59,11 +59,23 @@ section {
   .header nav {
     padding: 20px 44px;
   }
+  
 }
 
 @media screen and (max-width: 900px) {
   .header nav {
     padding: 20px 60px;
+  }
+  .ggg{
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+  }
+  .gggg{
+   
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
   }
 }
 
@@ -355,6 +367,17 @@ section {
   .section-thre .customer img {
     padding: 0;
   }
+  .ggg{
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+  }
+  .gggg{
+   
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+  }
 }
 
 .section-thre .content {
@@ -513,11 +536,33 @@ section {
   .sectionEight .padding {
     padding: 0 60px;
   }
+  .ggg{
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+  }
+  .gggg{
+   
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .sectionEight .padding {
     padding: 0 10px;
+  }
+  .ggg{
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+  }
+  .gggg{
+   
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
   }
 }
 
@@ -547,6 +592,17 @@ section {
 @media screen and (max-width: 720px) {
   .sectionEight .estate-body .side-left {
     padding: 20px 80px 0px 80px;
+  }
+  .ggg{
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+  }
+  .gggg{
+   
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
   }
 }
 
