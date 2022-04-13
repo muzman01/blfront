@@ -36,12 +36,14 @@ section {
   border-radius: 20px;
   height: 400px;
   width: 600px;
+  margin-top: 100px;
 }
 .gggg{
  
   height: 400px;
-  width: 400px;
-  margin-top: 100px;
+  width: 600px;
+  margin-bottom: 50px;
+  border-radius: 20px;
 }
 .header {
   position: fixed;
@@ -74,8 +76,8 @@ section {
   .gggg{
    
     height: 400px;
-    width: 400px;
-    margin-top: 100px;
+    width: 300px;
+ 
   }
 }
 
@@ -376,7 +378,7 @@ section {
    
     height: 400px;
     width: 300px;
-    margin-top: 100px;
+  
   }
 }
 
@@ -545,7 +547,7 @@ section {
    
     height: 400px;
     width: 100%;
-    margin-top: 100px;
+    
   }
 }
 
@@ -562,7 +564,7 @@ section {
    
     height: 400px;
     width: 100%;
-    margin-top: 100px;
+    border-radius: 20px;
   }
 }
 
@@ -602,7 +604,7 @@ section {
    
     height: 400px;
     width: 100%;
-    margin-top: 100px;
+   
   }
 }
 
