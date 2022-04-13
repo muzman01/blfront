@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
 import "./Partner.css"
-
+import Userp from  "../../img/icons8-user-64.png"
 export default function Partner() {
   return (
     <>
@@ -27,6 +27,7 @@ export default function Partner() {
                                     transform="translate(-373.812 93.819)" style="fill:#fd6920" />
                             </g>
                         </svg> */}
+                        <img src={Userp} />
                     </div>
                     <h3>Estate Agent</h3>
                 </div>
@@ -45,6 +46,7 @@ export default function Partner() {
                                     transform="translate(-373.812 93.819)" style="fill:#fd6920" />
                             </g>
                         </svg> */}
+                         <img src={Userp} width={64} height={64} />
                     </div>
                     <h3>Accountant</h3>
                 </div>

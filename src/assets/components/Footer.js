@@ -1,5 +1,8 @@
 import React from 'react'
 import f1 from "../img/footer-logo.png"
+import f2 from "../img/icons8-phone-100.png"
+import f3 from "../img/icons8-mail-50.png"
+import f4 from "../img/icons8-location-50.png"
 export default function Footer() {
   return (
     <footer>
@@ -51,7 +54,7 @@ export default function Footer() {
                                     transform="translate(-152.038 -305.341)" style="fill:#99b9d9" />
                             </g>
                         </svg> */}
-
+                        <img src={f2} className="icc"/>
                         <h6>0 (212) 530 92 15</h6>
                     </div>
                     <div className="col-xxl-7 d-flex align-items-center mt-4 mt-xxl-0 justify-content-center justify-content-lg-start">
@@ -64,7 +67,7 @@ export default function Footer() {
                             </g>
                         </svg> */}
 
-
+<img src={f3}className="icc" />
                         <h6>info@reitsdao.com</h6>
                     </div>
 
@@ -80,7 +83,7 @@ export default function Footer() {
                             </g>
                         </svg> */}
 
-
+<img src={f2}  className="icc"/>
                         <h6>0 (212) 530 92 15</h6>
                     </div>
                     <div className="col-xxl-7 d-flex align-items-center mt-4 justify-content-center justify-content-lg-start">

@@ -3,21 +3,21 @@ import React from 'react'
 import Logo from "../img/Logo.png"
 import { Link } from "react-router-dom";
 export default function NavBar() {
-    if (document.readyState === 'complete'){
-        function deneme()  {
-            window.scrollY(function() {
-                if (window.scrollY > 100) {
-                    ("#header").addClass("navbar-shadow");
-                } else {
-                    ("#header").removeClass("navbar-shadow");
-                }
-            });
+    // if (document.readyState === 'complete'){
+    //     function deneme()  {
+    //         window.scrollY(function() {
+    //             if (window.scrollY > 100) {
+    //                 ("#header").addClass("navbar-shadow");
+    //             } else {
+    //                 ("#header").removeClass("navbar-shadow");
+    //             }
+    //         });
         
         
         
-        };
-        deneme()
-    }
+    //     };
+    //     deneme()
+    // }
   return (
     <header id="header" className="header">
     <nav className="navbar navbar-expand-lg navbar-light">

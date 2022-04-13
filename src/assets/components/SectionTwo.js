@@ -11,7 +11,7 @@ export default function SectionTwo() {
                     <h1>Reits Dao Finance</h1>
                     <p data-aos="zoom-in-down">ReitsDAO is a service operated by Blokfield.Inc and is a decentralized real estate investment product service with real estate tokens linked to real assets on the BSC blockchain network.
                     </p>
-                    <div className='ggg'>
+                    <div className='gggg'>
                     <img className="img-fluid " src={S2} alt=""  data-aos="zoom-in-up"  data-aos-delay="400" />
                     </div>
                 </div>
