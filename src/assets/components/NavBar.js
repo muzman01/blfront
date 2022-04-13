@@ -55,11 +55,11 @@ export default function NavBar() {
                         <a className="nav-link " href="trendroyal">Trendroyal</a>
                     </li>
                     <li className="nav-item d-lg-none d-block">
-                        <a className="nav-link " href="#">Contact</a>
+                        <a className="nav-link " href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
-            <a href="#" className="btn btn-outline-contact d-none d-lg-block">Contact</a>
+            <a href="#contact" className="btn btn-outline-contact d-none d-lg-block">Contact</a>
         </div>
     </nav>
 </header>

@@ -1,7 +1,8 @@
 import React from 'react'
 import f1 from "../img/footer-logo.png"
-import f2 from "../img/icons8-phone-100.png"
+import f2 from "../img/icons8-phone-50.png"
 import f3 from "../img/icons8-mail-50.png"
+import f5 from "../img/icons8-printer-50.png"
 import f4 from "../img/icons8-location-50.png"
 export default function Footer() {
   return (
@@ -55,7 +56,7 @@ export default function Footer() {
                             </g>
                         </svg> */}
                         <img src={f2} className="icc"/>
-                        <h6>0 (212) 530 92 15</h6>
+                        <h6>0232 218 22 31 </h6>
                     </div>
                     <div className="col-xxl-7 d-flex align-items-center mt-4 mt-xxl-0 justify-content-center justify-content-lg-start">
                         {/* <svg xmlns="http://www.w3.org/2000/svg" width="29.945" height="24.119" viewBox="0 0 29.945 24.119">
@@ -68,7 +69,7 @@ export default function Footer() {
                         </svg> */}
 
 <img src={f3}className="icc" />
-                        <h6>info@reitsdao.com</h6>
+                        <h6>contact@reitsdao.com</h6>
                     </div>
 
                     <div className="col-xxl-5 d-flex align-items-center mt-4 justify-content-center justify-content-lg-start">
@@ -83,8 +84,8 @@ export default function Footer() {
                             </g>
                         </svg> */}
 
-<img src={f2}  className="icc"/>
-                        <h6>0 (212) 530 92 15</h6>
+<img src={f5}  className="icc"/>
+                        <h6>0232 218 22 31 </h6>
                     </div>
                     <div className="col-xxl-7 d-flex align-items-center mt-4 justify-content-center justify-content-lg-start">
                         {/* <svg xmlns="http://www.w3.org/2000/svg" width="45" height="29.413" viewBox="0 0 21.107 29.413">
@@ -96,8 +97,12 @@ export default function Footer() {
 
 
 
+<img src={f4} className="icc"/>
+                        <h6>Adalet Mah. Manas Bulv. 
+No:47/B K:26 D:2601 Folkart Towers A Kule 
+35530 Bayraklı İzmir, Türkiye
+</h6>
 
-                        <h6>Rota Trade Center Block A3, Floor : 12 D:327, 34149 Sariyer / Istanbul</h6>
                     </div>
                 </div>
             </div>
