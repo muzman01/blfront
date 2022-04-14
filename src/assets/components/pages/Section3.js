@@ -11,22 +11,22 @@ export default function Section3() {
             </div>
             <div className="contents row justify-content-center">
                 <div className="col-xl-3 col-lg-6 mb-2 mb-lg-0">
-                    <h4>Estate Agent
-                        Licence</h4>
+                    <h4><a href='#' className='alink'>Estate Agent
+                        Licence</a></h4>
                 </div>
                 <div className="col-xl-3  col-lg-6 mb-2 mb-lg-0">
-                    <h4>Registered
-                        Documents</h4>
+                    <h4><a href='#' className='alink'>Registered
+                        Documents</a></h4>
                 </div>
 
                 <div className="col-xl-3 col-lg-6 mb-2 mb-lg-0">
-                    <h4>Contract
-                        Document</h4>
+                    <h4><a href='#' className='alink'>Contract
+                        Document</a></h4>
                 </div>
                 <div className="col-xl-3 col-lg-6 mb-2 mb-lg-0">
-                    <h4>Reits Dao
+                    <h4><a href='#' className='alink'>Reits Dao
                         Company
-                        Document</h4>
+                        Document</a></h4>
                 </div>
 
             </div>
