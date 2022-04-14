@@ -39,9 +39,8 @@ export default function NavBar() {
                         <div className="dropdown-content">
                             <hr className="dropdown-divider" ></hr>
                            
-                            <a href="/notice" >Notice</a>
-                            <a href="/notice">2nd Poject</a>
-                            <a href="/notice">3rd Project</a>
+                            <a href="/notice" >Trendroyal 2 </a>
+                      
                         </div>
                     </li>
                     <li className="nav-item">
