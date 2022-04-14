@@ -9,8 +9,8 @@ export default function Section2() {
         <div className="container">
             <h1>Reason for choosing investment</h1>
             <div className="row">
-                <div className="col-xl-6 pe-4 align-self-center">
-                <ReactPlayer url='https://www.youtube.com/watch?v=sxipJELtDJk' />
+                <div className="col-xl-6 pe-4 align-self-center ">
+                <ReactPlayer url='https://www.youtube.com/watch?v=sxipJELtDJk' className='vdd' width={700} height={400} />
                 </div>
                 <div className="col-xl-6 ps-4 mt-4 m-xl-0">
                     <div className="invest-contents">
