@@ -69,7 +69,7 @@ export default function Footer() {
                         </svg> */}
 
 <img src={f3}className="icc" />
-                        <h6>contact@reitsdao.com</h6>
+                        <h6>contact@reitsdao.finance</h6>
                     </div>
 
                     <div className="col-xxl-5 d-flex align-items-center mt-4 justify-content-center justify-content-lg-start">
