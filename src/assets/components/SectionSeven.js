@@ -36,25 +36,25 @@ export default function SectionSeven() {
                                 <td>
                                     <h6>Lot Size:</h6>
                                 </td>
-                                <td>285 M2</td>
+                                <td> 300 M2</td>
                             </tr>
                             <tr>
                                 <td>
                                     <h6>Rental Yield:</h6>
                                 </td>
-                                <td>~0.0%</td>
+                                <td>%3.7</td>
                             </tr>
                             <tr>
                                 <td>
                                     <h6>YEAR BUILT:</h6>
                                 </td>
-                                <td>2015</td>
+                                <td>2016</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h6>Rental Escolation:</h6>
+                                    <h6> Product rating:</h6>
                                 </td>
-                                <td>3-5% Per Annum</td>
+                                <td>A1</td>
                             </tr>
                         </table>
                         <h4 className="pt-5 d-none d-md-block">Related Notice</h4>

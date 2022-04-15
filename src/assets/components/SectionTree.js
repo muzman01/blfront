@@ -1,5 +1,5 @@
 import React from 'react'
-import S3 from "../img/Section-thre-photo.png"
+import S3 from "../img/33.png"
 export default function SectionTree() {
   return (
     <section id="sectionThre" className="section-thre" data-aos="fade-up">

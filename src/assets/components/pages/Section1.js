@@ -11,7 +11,7 @@ export default function Section1() {
             <h2 className="d-inline-block">Trend Royal 2 Project</h2>
             <span>
                 <h4 className="d-inline-block">Estimated revenue:</h4>
-                <h1 className="d-inline-block">00%</h1>
+                <h1 className="d-inline-block"> %15</h1>
                 <h4 className="d-inline-block">/ year</h4>
             </span>
         </div>
@@ -32,7 +32,7 @@ export default function Section1() {
                     <img className="me-2" width="28" height="36" src={n1} />
                     <h3>Point 1</h3>
                 </div>
-                <p>Kusadasi, a popular tourist destination, is the most popular area with high transaction demand
+                <p>The most luxurious apartment in Kusadasi
                 </p>
             </div>
         </div>
@@ -43,7 +43,7 @@ export default function Section1() {
                     <img className="me-2" width="28" height="36" src={n2}/>
                     <h3>Point 2</h3>
                 </div>
-                <p>Profits expected from undervalued real estate market</p>
+                <p>Low vacancy rate</p>
             </div>
         </div>
 
@@ -53,7 +53,7 @@ export default function Section1() {
                     <img className="me-2" width="28" height="36" src={n2}/>
                     <h3>Point 3</h3>
                 </div>
-                <p>The rental income is used as it is to realize the investor’s profit</p>
+                <p>Real estate value increase of more than 15% per year</p>
             </div>
         </div>
     </div>

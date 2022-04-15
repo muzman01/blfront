@@ -20,19 +20,19 @@ export default function Section2() {
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
                                 <h4>Address</h4>
-                                <h5>Rota Trade Center Block A3, Floor : 12
-                                    D:327, 34149 Sariyer / Istanbul</h5>
+                                <h5> Ege mahallesi  Alpaslan Türkeş sok. 
+                                NO:18 Trendroyal 2 C blok D:7</h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
                                 <h4>IFO Volume</h4>
-                                <h5>934.345.3455</h5>
+                                <h5>300.000 USD</h5>
                             </div>
                         </div>
 
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
                                 <h4>Land Area</h4>
-                                <h5>California</h5>
+                                <h5>Turkey </h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
                                 <h4>Revenue</h4>
@@ -43,11 +43,11 @@ export default function Section2() {
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
                                 <h4>Year Built</h4>
-                                <h5>1876</h5>
+                                <h5>2016</h5>
                             </div>
                             <div className="col-4 d-flex flex-column">
                                 <h4>Contract Date</h4>
-                                <h5>06.15.2022</h5>
+                                <h5>08.03.2022</h5>
                             </div>
                         </div>
 
@@ -55,22 +55,22 @@ export default function Section2() {
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
                                 <h4>Building Size</h4>
-                                <h5>535 m2</h5>
+                                <h5>300 m²</h5>
                             </div>
-                            <div className=" col-4 d-flex flex-column">
+                            {/* <div className=" col-4 d-flex flex-column">
                                 <h4>Tax Rate</h4>
                                 <h5>%45</h5>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
                                 <h4>Households</h4>
-                                <h5>Decentralized</h5>
+                                <h5>apartment</h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
                                 <h4>Market Demands</h4>
-                                <h5>Super</h5>
+                                <h5>AAA</h5>
                             </div>
                         </div>
 
