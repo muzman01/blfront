@@ -66,7 +66,7 @@ export default function Section2() {
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
                                 <h4>Households</h4>
-                                <h5>apartment</h5>
+                                <h5>Apartment</h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
                                 <h4>Market Demands</h4>

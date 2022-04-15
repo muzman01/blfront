@@ -39,7 +39,7 @@ export default function NavBar() {
                         <div className="dropdown-content">
                             <hr className="dropdown-divider" ></hr>
                            
-                            <a href="/trendroyal" >Trendroyal 2 </a>
+                            <a href="/notice" >Trendroyal 2 </a>
                       
                         </div>
                     </li>
@@ -51,7 +51,7 @@ export default function NavBar() {
                         <a className="nav-link " href="partner">Partners</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link " href="notice">Notice</a>
+                        <a className="nav-link " href="trendroyal">Notice</a>
                     </li>
                     <li className="nav-item d-lg-none d-block">
                         <a className="nav-link " href="#contact">Contact</a>
