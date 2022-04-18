@@ -7,7 +7,7 @@ import i3 from "../../img/defi-services-2.png"
 import i4 from "../../img/defi-services-3.png"
 // import axios from 'axios'
 // import Web3 from 'web3'
-// import "./Defi.css"
+import "./Defi.css"
 // import abi from "./abi.json"
 // import { useWeb3React } from "@web3-react/core";
 export default function Defi() {
