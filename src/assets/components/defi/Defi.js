@@ -6,21 +6,21 @@ import i2 from "../../img/defi-services-1.png"
 import i3 from "../../img/defi-services-2.png"
 import i4 from "../../img/defi-services-3.png"
 // import axios from 'axios'
-import Web3 from 'web3'
-import "./Defi.css"
-import abi from "./abi.json"
+// import Web3 from 'web3'
+// import "./Defi.css"
+// import abi from "./abi.json"
 // import { useWeb3React } from "@web3-react/core";
 export default function Defi() {
-  const web3 = new Web3();
+//   const web3 = new Web3();
 
-    const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
-    const getTk = async () => {
+//     const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
+//     const getTk = async () => {
 
-        const contract =new web3.eth.Contract("./abi.json",contractAddress)
-        const totalsuply = contract.methods.totalSupply().call()
-        console.log(totalsuply);
+//         const contract =new web3.eth.Contract("./abi.json",contractAddress)
+//         const totalsuply = contract.methods.totalSupply().call()
+//         console.log(totalsuply);
         
-    }
+//     }
 
   return (
     <>
