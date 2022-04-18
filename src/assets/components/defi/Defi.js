@@ -60,7 +60,7 @@ export default function Defi() {
                 <div
                     className="mt-4 mt-lg-0 col-xl-3 text-center text-lg-start d-flex align-items-center justify-content-center">
                     <img className="img-fluid m-auto" width="70" src={i1} alt=""/>
-                    <button className="btn-add-meta-mask" onClick={getTk}>Add To Metamask</button>
+                    <button className="btn-add-meta-mask" >Add To Metamask</button>
                 </div>
 
             </div>
