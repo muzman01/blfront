@@ -1,12 +1,27 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
 import i1 from "../../img/metameskhead.png"
 import i2 from "../../img/defi-services-1.png"
 import i3 from "../../img/defi-services-2.png"
 import i4 from "../../img/defi-services-3.png"
+// import axios from 'axios'
+import Web3 from 'web3'
 import "./Defi.css"
+import abi from "./abi.json"
+// import { useWeb3React } from "@web3-react/core";
 export default function Defi() {
+  const web3 = new Web3();
+
+    const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
+    const getTk = async () => {
+
+        const contract =new web3.eth.Contract("./abi.json",contractAddress)
+        const totalsuply = contract.methods.totalSupply().call()
+        console.log(totalsuply);
+        
+    }
+
   return (
     <>
     <NavBar />
@@ -45,7 +60,7 @@ export default function Defi() {
                 <div
                     className="mt-4 mt-lg-0 col-xl-3 text-center text-lg-start d-flex align-items-center justify-content-center">
                     <img className="img-fluid m-auto" width="70" src={i1} alt=""/>
-                    <button className="btn-add-meta-mask">Add To Metamask</button>
+                    <button className="btn-add-meta-mask" onClick={getTk}>Add To Metamask</button>
                 </div>
 
             </div>

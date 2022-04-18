@@ -14,8 +14,9 @@ export default function SectionSix() {
                     </div>
                     <div className="card-body">
                         <h2>
-                            Small <br></br>  Investment
-                            <br></br>  Possible
+                        Low-Risk investment
+                            <br></br>  <h6>(Long term contract, 
+Stable because the rent is paid in advance for one year)</h6>
                         </h2>
                     </div>
                 </div>
@@ -28,7 +29,9 @@ export default function SectionSix() {
                     </div>
                     <div className="card-body">
                         <h2>
-                            Subscription <br></br>  method <br></br>  funding
+                        Growth Potential<br></br>  <h6>
+                        (Mutual growth possible through Blokfield Defi services)
+                        </h6>
                         </h2>
                     </div>
                 </div>
@@ -41,7 +44,9 @@ export default function SectionSix() {
                     </div>
                     <div className="card-body">
                         <h2>
-                            Passing Revenue <br></br> with Token <br></br>  Buyback
+                        Efficient Investment <br></br>  <h6><br></br>
+                        (Portfolio diversification with complex REITs)
+                        </h6>
                         </h2>
                     </div>
                 </div>
