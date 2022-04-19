@@ -5,22 +5,41 @@ import i1 from "../../img/metameskhead.png"
 import i2 from "../../img/defi-services-1.png"
 import i3 from "../../img/defi-services-2.png"
 import i4 from "../../img/defi-services-3.png"
-// import axios from 'axios'
+import axios from 'axios'
 // import Web3 from 'web3'
 import "./Defi.css"
-// import abi from "./abi.json"
+import abi from "./abi.json"
 // import { useWeb3React } from "@web3-react/core";
 export default function Defi() {
-//   const web3 = new Web3();
+//   const web3 = new Web3(Web3.givenProvider);
 
-//     const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
+//     const contractAddress='0xf51903f5B838eDFDd4D0dDC8be2145863Eaf0032'
 //     const getTk = async () => {
 
-//         const contract =new web3.eth.Contract("./abi.json",contractAddress)
-//         const totalsuply = contract.methods.totalSupply().call()
-//         console.log(totalsuply);
+//         const contract =new web3.eth.Contract(abi,contractAddress)
+//         contract.methods.name().call((err, result) => {
+//             if(err){
+//               console.log('Error: ', err);
+         
+//             }
+//             console.log(result);
+
+//           });
+//           console.log(abi);
         
 //     }
+// useEffect(() => {
+//     axios
+//       .get(
+//         "https://api.bscscan.com/api?module=token&action=tokeninfo&contractaddress=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&apikey=YourApiKeyToken"
+//       )
+//       .then((res) => {
+//         console.log(res.data);
+//       })
+//       .catch((error) => console.log(error));
+//   }, []);
+
+
 
   return (
     <>
@@ -31,7 +50,8 @@ export default function Defi() {
                 <div className="col-xl-4 text-center text-lg-start">
                     <div className="text-white mb-3">
                         <h6 className="bosluk">Total Supply</h6>
-                        <h6 className="orange">380,499</h6>
+                        <h6 className="orange">
+355,000</h6>
                     </div>
 
                     <div className="text-white mb-3 ">
@@ -60,7 +80,7 @@ export default function Defi() {
                 <div
                     className="mt-4 mt-lg-0 col-xl-3 text-center text-lg-start d-flex align-items-center justify-content-center">
                     <img className="img-fluid m-auto" width="70" src={i1} alt=""/>
-                    <button className="btn-add-meta-mask" >Add To Metamask</button>
+                    <button className="btn-add-meta-mask"  >Add To Metamask</button>
                 </div>
 
             </div>

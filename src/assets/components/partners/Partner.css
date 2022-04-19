@@ -3,6 +3,10 @@
     src: url(../../fonts/Avenir\ Heavy.ttf);
   }
 
+  @font-face {
+    font-family: ndAstrooner;
+    src: url(../../fonts/ndastroneer.ttf);
+  }
   
   * {
     margin: 0;
@@ -148,7 +152,7 @@
     padding: 0.4rem 1rem;
     color: #ffffff;
     font-size: 22px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     border-radius: 8px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -175,7 +179,7 @@
     color: #02264a;
     padding: 6px 1.8rem;
     border-radius: 8px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -247,7 +251,7 @@
   
   .sectionOne .section-one-side-left h1 {
     color: #ffffff;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-weight: normal;
     width: 75%;
     font-size: 65px;
@@ -285,13 +289,13 @@
   .sectionTwo .section-two-left h1 {
     color: #02264a;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionTwo .section-two-left p {
     color: #02264a;
     font-size: 24px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     line-height: 1.3;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -315,7 +319,7 @@
   .section-thre .customer h1 {
     color: #ffffff;
     text-align: center;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 65px;
   }
   
@@ -323,7 +327,7 @@
     color: #ffffff;
     padding: 0 6px;
     margin: 0;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     display: inline-block;
     font-size: 24px;
   }
@@ -355,19 +359,19 @@
   .sectionFour h2 {
     color: #a4b9ce;
     font-size: 34px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFour h1 {
     color: #02264a;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFour h3 {
     color: #02264a;
     font-size: 28px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFour .photo-item {
@@ -424,19 +428,19 @@
   .sectionFive h2 {
     color: #ffffff;
     font-size: 34px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFive h1 {
     color: #ffffff;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFive p {
     color: #6e7b88;
     font-size: 22px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionSix {
@@ -480,7 +484,7 @@
     text-align: center;
     color: #02264a;
     font-size: 34px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionEight {
@@ -507,7 +511,7 @@
     text-align: center;
     color: #ffffff;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionEight .estate-body {
@@ -545,7 +549,7 @@
   .sectionEight .estate-body h2 {
     color: #ffffff;
     font-size: 50px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-transform: uppercase;
     margin-bottom: 40px;
   }
@@ -553,20 +557,20 @@
   .sectionEight .estate-body p {
     color: #ffffff;
     font-size: 24px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     margin-bottom: 40px;
   }
   
   .sectionEight .estate-body h4 {
     color: #8193a5;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-transform: uppercase;
     font-size: 28px;
   }
   
   .sectionEight .estate-body h6 {
     color: #8193a5;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 20px;
     padding-right: 2rem;
   }
@@ -574,7 +578,7 @@
   .sectionEight .estate-body td {
     color: #ffffff;
     font-size: 20px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .contact {
@@ -588,7 +592,7 @@
   .contact h1 {
     color: #ffffff;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .contact form {
@@ -637,7 +641,7 @@
   .contact form textarea::-webkit-input-placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -645,7 +649,7 @@
   .contact form textarea:-ms-input-placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -653,7 +657,7 @@
   .contact form textarea::-ms-input-placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -661,7 +665,7 @@
   .contact form textarea::placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -669,7 +673,7 @@
     background-color: #29527b;
     color: #ffffff;
     font-size: 22px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     border-radius: 12px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -691,14 +695,14 @@
   
   footer h3 {
     font-size: 25px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     color: #ffffff;
     margin-bottom: 20px;
   }
   
   footer h4 {
     font-size: 16px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     color: #ffffff;
     margin-bottom: 20px;
   }
@@ -773,7 +777,7 @@
     padding: 0 10px;
     font-size: 16px;
     color: #ffffff;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     margin: 0;
   }
   
@@ -785,7 +789,7 @@
   .partners .japonca h4 {
     color: #02264a;
     font-size: 24px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     border: solid #d5d5d5 2px;
     border-radius: 10px;
     padding: 20px 40px;
@@ -797,7 +801,7 @@
   .partners h2 {
     color: #02264a;
     font-size: 52px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-align: center;
     margin-bottom: 60px;
   }
@@ -805,7 +809,7 @@
   .partners h3 {
     color: #02264a;
     font-size: 42px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-align: center;
   }
   
@@ -822,7 +826,7 @@
   .partners .icons .icon-item h3 {
     color: #02264a;
     font-size: 26px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-align: center;
     margin-top: 30px;
   }

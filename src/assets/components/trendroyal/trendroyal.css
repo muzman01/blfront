@@ -2,6 +2,10 @@
     font-family: avenirHeavy;
     src: url(../../fonts/Avenir\ Heavy.ttf);
   }
+  @font-face {
+    font-family: ndAstrooner;
+    src: url(../../fonts/ndastroneer.ttf);
+  }
   
   /* @font-face {
     font-family: ndAstrooner;
@@ -179,7 +183,7 @@
     color: #02264a;
     padding: 6px 1.8rem;
     border-radius: 8px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -251,7 +255,7 @@
   
   .sectionOne .section-one-side-left h1 {
     color: #ffffff;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-weight: normal;
     width: 75%;
     font-size: 65px;
@@ -289,13 +293,13 @@
   .sectionTwo .section-two-left h1 {
     color: #02264a;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionTwo .section-two-left p {
     color: #02264a;
     font-size: 24px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     line-height: 1.3;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -319,7 +323,7 @@
   .section-thre .customer h1 {
     color: #ffffff;
     text-align: center;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 65px;
   }
   
@@ -327,7 +331,7 @@
     color: #ffffff;
     padding: 0 6px;
     margin: 0;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     display: inline-block;
     font-size: 24px;
   }
@@ -359,19 +363,19 @@
   .sectionFour h2 {
     color: #a4b9ce;
     font-size: 34px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFour h1 {
     color: #02264a;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFour h3 {
     color: #02264a;
     font-size: 28px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFour .photo-item {
@@ -428,19 +432,19 @@
   .sectionFive h2 {
     color: #ffffff;
     font-size: 34px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFive h1 {
     color: #ffffff;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionFive p {
     color: #6e7b88;
     font-size: 22px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionSix {
@@ -484,7 +488,7 @@
     text-align: center;
     color: #02264a;
     font-size: 34px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionEight {
@@ -511,7 +515,7 @@
     text-align: center;
     color: #ffffff;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .sectionEight .estate-body {
@@ -549,7 +553,7 @@
   .sectionEight .estate-body h2 {
     color: #ffffff;
     font-size: 50px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-transform: uppercase;
     margin-bottom: 40px;
   }
@@ -557,20 +561,20 @@
   .sectionEight .estate-body p {
     color: #ffffff;
     font-size: 24px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     margin-bottom: 40px;
   }
   
   .sectionEight .estate-body h4 {
     color: #8193a5;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-transform: uppercase;
     font-size: 28px;
   }
   
   .sectionEight .estate-body h6 {
     color: #8193a5;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 20px;
     padding-right: 2rem;
   }
@@ -578,7 +582,7 @@
   .sectionEight .estate-body td {
     color: #ffffff;
     font-size: 20px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .contact {
@@ -592,7 +596,7 @@
   .contact h1 {
     color: #ffffff;
     font-size: 65px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .contact form {
@@ -641,7 +645,7 @@
   .contact form textarea::-webkit-input-placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -649,7 +653,7 @@
   .contact form textarea:-ms-input-placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -657,7 +661,7 @@
   .contact form textarea::-ms-input-placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -665,7 +669,7 @@
   .contact form textarea::placeholder {
     color: #f0f0f0;
     opacity: 0.27;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 22px;
   }
   
@@ -673,7 +677,7 @@
     background-color: #29527b;
     color: #ffffff;
     font-size: 22px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     border-radius: 12px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -695,14 +699,14 @@
   
   footer h3 {
     font-size: 25px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     color: #ffffff;
     margin-bottom: 20px;
   }
   
   footer h4 {
     font-size: 16px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     color: #ffffff;
     margin-bottom: 20px;
   }
@@ -777,7 +781,7 @@
     padding: 0 10px;
     font-size: 16px;
     color: #ffffff;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     margin: 0;
   }
   
@@ -795,13 +799,13 @@
   .notice .notice-blue-card h3 {
     color: #02264a;
     font-size: 50px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .notice .notice-blue-card p {
     color: #02264a;
     font-size: 27px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .notice .notice-blue-card img {
@@ -822,7 +826,7 @@
   .notice .newsSwiper h4 {
     color: #02264a;
     font-size: 32px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .notice .newsSwiper .newsSwiper-button-next {
@@ -847,13 +851,13 @@
   .notice .newsSwiper .news-card p {
     color: #02264a;
     font-size: 26px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     line-height: 1.33;
   }
   
   .notice .newsSwiper .news-card h6 {
     color: #acacac;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     font-size: 16px;
     margin: 0;
   }
@@ -873,12 +877,12 @@
   .faq h2 {
     color: #02264a;
     font-size: 50px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .faq p {
     font-size: 24px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     color: #02264a;
     margin-bottom: 28px;
   }
@@ -886,7 +890,7 @@
   .faq h1 {
     color: #02264a;
     font-size: 60px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     text-align: center;
   }
   
@@ -1014,7 +1018,7 @@
   .faq .faq-tabs .tab-item .tab-title h4 {
     color: #0a1f31;
     font-size: 24px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     margin: 0;
   }
   
@@ -1030,7 +1034,7 @@
     padding: 28px 28px;
     color: #7c8993;
     font-size: 18px;
-   font-family: 'Anek Odia', sans-serif;
+    font-family: ndAstrooner;
     margin: 0;
   }
   .qa {
@@ -1084,14 +1088,14 @@
     font-weight: 350;
     font-size: 24px;
     color: black;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   .questionsAfter p {
     font-weight: 350;
     font-size: 24px;
     color: white;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   .questions2 {
@@ -1114,14 +1118,14 @@
     font-weight: 350;
     font-size: 24px;
     color: white;
-    font-family:'Sora', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .questions2 p {
     font-weight: 350;
     font-size: 24px;
     color: black;
-    font-family:'Sora', sans-serif;
+    font-family: ndAstrooner;
   }
   
   
@@ -1162,14 +1166,14 @@
     font-weight: 350;
     font-size: 24px;
     color: white;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   .questions3 p {
     font-weight: 350;
     font-size: 24px;
     color: black;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   .questions4 {
@@ -1185,7 +1189,7 @@
     font-weight: 350;
     font-size: 24px;
     color: black;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   .questions4After {
@@ -1200,7 +1204,7 @@
     font-weight: 350;
     font-size: 24px;
     color: white;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   
@@ -1222,7 +1226,7 @@
     font-weight: 350;
     font-size: 24px;
     color: black;
-    font-family:'Sora', sans-serif;
+    font-family: ndAstrooner;
   }
   
   .questions5After {
@@ -1237,7 +1241,7 @@
     font-weight: 350;
     font-size: 24px;
     color: white;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   .question6 {
     justify-content: space-between;
@@ -1272,14 +1276,14 @@
     font-weight: 350;
     font-size: 24px;
     color: white;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   .questions6 p {
     font-weight: 350;
     font-size: 24px;
     color: black;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
     text-align: center;
   }
   .questions7 {
@@ -1302,14 +1306,14 @@
     font-weight: 350;
     font-size: 24px;
     color: black;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   .questions7After p {
     font-weight: 350;
     font-size: 24px;
     color: white;
-    font-family: 'Sora', sans-serif;
+     font-family: ndAstrooner;
   }
   
   @media screen and (max-width:500px) {
@@ -1321,7 +1325,7 @@
   
     .qa h1 {
         font-size: 35px;
-        font-family: 'Sora', sans-serif;
+         font-family: ndAstrooner;
         color: white;
         margin-top: 170px;
         text-align: center;
@@ -1347,7 +1351,7 @@
         font-weight: 350;
         font-size: 19px;
       
-        font-family: 'Sora', sans-serif;
+         font-family: ndAstrooner;
     }
   
     .questionsAfter {
@@ -1363,7 +1367,7 @@
         font-weight: 350;
         font-size: 17px;
         color: white;
-        font-family: 'Sora', sans-serif;
+         font-family: ndAstrooner;
     }
     .questions7 {
       width: 345px;
@@ -1378,7 +1382,7 @@
       font-weight: 350;
       font-size: 19px;
     
-      font-family: 'Sora', sans-serif;
+       font-family: ndAstrooner;
   }
 
   .questions7After {
@@ -1394,7 +1398,7 @@
       font-weight: 350;
       font-size: 17px;
       color: white;
-      font-family: 'Sora', sans-serif;
+       font-family: ndAstrooner;
   }
 
     .questions2 {
@@ -1409,7 +1413,7 @@
         font-weight: 350;
         font-size: 20px;
      
-        font-family: 'Sora', sans-serif;
+         font-family: ndAstrooner;
     }
   
     .questions2After {
@@ -1424,7 +1428,7 @@
         font-weight: 350;
         font-size: 17px;
         color: white;
-        font-family: fahkwang;
+         font-family: ndAstrooner;
     }
   
     .qaLine2 {
@@ -1455,7 +1459,7 @@
         font-weight: 350;
         font-size: 20px;
     
-        font-family: 'Sora', sans-serif;
+         font-family: ndAstrooner;
     }
   
     .questions3After {
@@ -1471,7 +1475,7 @@
         font-weight: 350;
         font-size: 17px;
     
-        font-family: 'Sora', sans-serif;
+         font-family: ndAstrooner;
     }
   
     .questions4 {
@@ -1486,7 +1490,7 @@
         font-weight: 350;
         font-size: 20px;
       
-        font-family: fahkwang;
+         font-family: ndAstrooner;
     }
   
     .questions4After {
@@ -1502,7 +1506,7 @@
         font-weight: 350;
         font-size: 17px;
         color: white;
-        font-family: fahkwang;
+         font-family: ndAstrooner;
     }
     /* aa */
     .qaLine3 {
@@ -1533,7 +1537,7 @@
         font-weight: 350;
         font-size: 20px;
         color: white;
-        font-family: fahkwang;
+         font-family: ndAstrooner;
     }
   
     .questions6After {
@@ -1549,7 +1553,7 @@
         font-weight: 350;
         font-size: 17px;
         color: white;
-        font-family: fahkwang;
+         font-family: ndAstrooner;
     }
   
     .questions5 {
@@ -1564,7 +1568,7 @@
         font-weight: 350;
         font-size: 20px;
  
-        font-family: fahkwang;
+         font-family: ndAstrooner;
     }
   
     .questions5After {
@@ -1580,7 +1584,7 @@
         font-weight: 350;
         font-size: 17px;
         
-        font-family: fahkwang;
+         font-family: ndAstrooner;
     }
   }
 
