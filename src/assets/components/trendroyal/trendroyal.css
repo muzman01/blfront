@@ -1075,6 +1075,8 @@
     padding: 20px;
     border-radius: 8px;
     margin-left: -200px;
+    text-align: center;
+    
   }
   
   .questionsAfter {
@@ -1091,6 +1093,7 @@
     font-size: 24px;
     color: black;
      font-family: ndAstrooner;
+     margin-left: 120px;
   }
   
   .questionsAfter p {
@@ -1098,11 +1101,12 @@
     font-size: 24px;
     color: white;
      font-family: ndAstrooner;
+     
   }
   
   .questions2 {
     width: 540px;
-    height: 115px;
+    height: 125px;
     border: 2px solid rgba(128, 128, 128, 0.432);
     padding: 20px;
     border-radius: 8px;
@@ -1113,6 +1117,7 @@
     border-radius: 8px;
     width: 540px;
     height: 200px;
+    margin-left: 0;
     background-color: rgb(63, 81, 181);
   }
   
@@ -1128,14 +1133,17 @@
     font-size: 24px;
     color: black;
     font-family: ndAstrooner;
+    margin-left: 120px;
   }
   
   
   .qaLine2 {
     margin-top: 30px;
-    ;
+    
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
   }
   
   .question3 {
@@ -1150,11 +1158,13 @@
   
   .questions3 {
     width: 1240px;
-    height: 115px;
+    height: 95px;
     border: 2px solid rgba(128, 128, 128, 0.432);
     padding: 20px;
     border-radius: 8px;
     margin-left: -200px;
+    text-align: center;
+
   }
   
   .questions3After {
@@ -1171,6 +1181,7 @@
     font-size: 24px;
     color: white;
      font-family: ndAstrooner;
+     margin-left: auto;
   }
   
   .questions3 p {
@@ -1178,6 +1189,7 @@
     font-size: 24px;
     color: black;
      font-family: ndAstrooner;
+     margin-left: auto;
   }
   
   .questions4 {
@@ -1220,7 +1232,7 @@
   .questions5 {
     width: 1240px;
     margin-left: -200px;
-    height: 115px;
+    height: 95px;
     border: 2px solid rgba(128, 128, 128, 0.432);
     padding: 20px;
     border-radius: 8px;
@@ -1232,6 +1244,7 @@
     font-size: 24px;
     color: black;
     font-family: ndAstrooner;
+    margin-left: auto;
   }
   
   .questions5After {
@@ -1248,6 +1261,7 @@
     font-size: 24px;
     color: white;
      font-family: ndAstrooner;
+     margin-left: auto;
   }
   .question6 {
     justify-content: space-between;
@@ -1295,7 +1309,7 @@
   .questions7 {
     width: 1240px;
     margin-left: -200px;
-    height: 115px;
+    height: 95px;
     border: 2px solid rgba(128, 128, 128, 0.432);
     padding: 20px;
     border-radius: 8px;
@@ -1316,12 +1330,14 @@
     font-size: 24px;
     color: black;
      font-family: ndAstrooner;
+     margin-left: auto;
   }
   
   .questions7After p {
     font-weight: 350;
     font-size: 24px;
     color: white;
+    margin-left: auto;
      font-family: ndAstrooner;
   }
   
@@ -1349,11 +1365,12 @@
   
     .questions {
         width: 345px;
-        height: 85px;
+        height: 125px;
         border: 2px solid rgba(128, 128, 128, 0.432);
         padding: 20px;
         border-radius: 8px;
       margin-bottom: 10px;
+      margin-left: 0;
     }
   
     .questions p {
@@ -1370,6 +1387,7 @@
         height: 404px;
         background-color:gray;
         margin-bottom: 30px;
+        margin-left: 0;
     }
   
     .questionsAfter p {
@@ -1380,9 +1398,10 @@
     }
     .questions7 {
       width: 345px;
-      height: 85px;
+      height: 115px;
       border: 2px solid rgba(128, 128, 128, 0.432);
       padding: 20px;
+      margin-left: 0;
       border-radius: 8px;
     margin-bottom: 10px;
   }
@@ -1401,12 +1420,14 @@
       height: 404px;
       background-color:gray;
       margin-bottom: 30px;
+      margin-left: 0;
   }
 
   .questions7After p {
       font-weight: 350;
       font-size: 17px;
       color: white;
+      margin-left: 0;
        font-family: ndAstrooner;
   }
 
@@ -1414,13 +1435,14 @@
         width: 345px;
         height: 65px;
         border: 2px solid rgba(128, 128, 128, 0.432);
-        padding: 20px;
+        padding: 5px;
         border-radius: 8px;
+        margin-left: 0;
     }
   
     .questions2 p {
         font-weight: 350;
-        font-size: 20px;
+        font-size: 16px;
      
          font-family: ndAstrooner;
     }
@@ -1456,9 +1478,10 @@
     }
     .questions3 {
         width: 345px;
-        height: 105px;
+        height: 135px;
         border: 2px solid rgba(128, 128, 128, 0.432);
         padding: 15px;
+        margin-left: 0;
         border-radius: 8px;
 
         margin-top: -20px;
@@ -1476,6 +1499,7 @@
         border-radius: 8px;
         width: 345px;
         height: 204px;
+        margin-left: 0;
         background-color:gray;
        
     }
@@ -1567,10 +1591,11 @@
   
     .questions5 {
         width: 345px;
-        height: 105px;
+        height: 125px;
         border: 2px solid rgba(128, 128, 128, 0.432);
         padding: 15px;
         border-radius: 8px;
+        margin-left: 0;
     }
   
     .questions5 p {
@@ -1587,6 +1612,7 @@
         height: 205px;
         background-color:gray;
         margin-bottom: 50px;
+        margin-left: 0;
     }
   
     .questions5After p {
