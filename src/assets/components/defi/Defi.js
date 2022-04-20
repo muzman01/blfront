@@ -6,61 +6,61 @@ import i2 from "../../img/defi-services-1.png"
 import i3 from "../../img/defi-services-2.png"
 import i4 from "../../img/defi-services-3.png"
 import axios from 'axios'
-import Web3 from 'web3'
+// import Web3 from 'web3'
 import "./Defi.css"
 import abi from "./abi.json"
 // import { useWeb3React } from "@web3-react/core";
 export default function Defi() {
-    const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org/"))
-    const [totalSup,setTotalSup] = useState()
-    const [burn,Setburn] = useState()
-    const [balance,setBalance] = useState()
-    const contractAddress='0xf51903f5B838eDFDd4D0dDC8be2145863Eaf0032'
-    const getTk = async () => {
+//     const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org/"))
+//     const [totalSup,setTotalSup] = useState()
+//     const [burn,Setburn] = useState()
+//     const [balance,setBalance] = useState()
+//     const contractAddress='0xf51903f5B838eDFDd4D0dDC8be2145863Eaf0032'
+//     const getTk = async () => {
 
-        const contract =new web3.eth.Contract(abi,contractAddress)
-        contract.methods.balanceOf("0x0000000000000000000000000000000000000000").call((err, result) => {
-            if(err){
-              console.log('Error: ', err);
+//         const contract =new web3.eth.Contract(abi,contractAddress)
+//         contract.methods.balanceOf("0x0000000000000000000000000000000000000000").call((err, result) => {
+//             if(err){
+//               console.log('Error: ', err);
          
-            }
-            Setburn(result)
+//             }
+//             Setburn(result)
 
-          });
-          contract.methods.totalSupply().call((err, result) => {
-            if(err){
-              console.log('Error: ', err);
+//           });
+//           contract.methods.totalSupply().call((err, result) => {
+//             if(err){
+//               console.log('Error: ', err);
          
-            }
+//             }
             
-            setTotalSup(result)
+//             setTotalSup(result)
 
-          });
-          console.log(abi);
+//           });
+//           console.log(abi);
         
-    }
-useEffect(() => {
-    const contract =new web3.eth.Contract(abi,contractAddress)
-    contract.methods.balanceOf("0x0000000000000000000000000000000000000000").call((err, result) => {
-        if(err){
-          console.log('Error: ', err);
+//     }
+// useEffect(() => {
+//     const contract =new web3.eth.Contract(abi,contractAddress)
+//     contract.methods.balanceOf("0x0000000000000000000000000000000000000000").call((err, result) => {
+//         if(err){
+//           console.log('Error: ', err);
      
-        }
-        Setburn(result)
+//         }
+//         Setburn(result)
 
-      });
-      contract.methods.totalSupply().call((err, result) => {
-        if(err){
-          console.log('Error: ', err);
+//       });
+//       contract.methods.totalSupply().call((err, result) => {
+//         if(err){
+//           console.log('Error: ', err);
      
-        }
+//         }
         
-        setTotalSup(result)
+//         setTotalSup(result)
 
-      });
+//       });
 
 
-  }, []);
+//   }, []);
 
 
 
@@ -84,7 +84,7 @@ useEffect(() => {
 
                     <div className="text-white mb-3">
                         <h6 className="bosluk">Total Burned</h6>
-                        <h6 className="orange">{burn}</h6>
+                        <h6 className="orange">0</h6>
                     </div>
 
 
