@@ -6,72 +6,54 @@ import i2 from "../../img/defi-services-1.png"
 import i3 from "../../img/defi-services-2.png"
 import i4 from "../../img/defi-services-3.png"
 import axios from 'axios'
-// import Web3 from 'web3'
+import Web3 from 'web3'
 import "./Defi.css"
 import abi from "./abi.json"
 // import { useWeb3React } from "@web3-react/core";
 export default function Defi() {
-    // const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org/"))
-    // const [totalSup,setTotalSup] = useState()
-    // const [burn,Setburn] = useState()
-    // const [balance,setBalance] = useState()
-    // const [circulating, setCirculating] = useState();
-    // const [price, setPrice] = useState(0)
-    // const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
+    const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org/"))
+    const [totalSup,setTotalSup] = useState()
+    const [burn,Setburn] = useState()
+    const [circulating, setCirculating] = useState();
+    const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
+    const tokenp = 0.61409;
+    
     const getTk = async () => {
 
-        // const contract =new web3.eth.Contract(abi,contractAddress)
-        // contract.methods.balanceOf("0x000000000000000000000000000000000000dEaD").call((err, result) => {
-        //     if(err){
-        //       console.log('Error: ', err);
-         
-        //     }
-        //     console.log(result)
-        //     Setburn(result)
-        //   });
-        //   contract.methods.totalSupply().call((err, result) => {
-        //     if(err){
-        //       console.log('Error: ', err);
-         
-        //     }
-            
-        //     console.log(result)
-        //     setTotalSup(result)
-        //   });
-        //   console.log(abi);
-        //   setCirculating(totalSup - burn)
-
-        //   console.log(circulating);
+      
         
     }
-// useEffect(() => {
-//     const contract =new web3.eth.Contract(abi,contractAddress)
-//     contract.methods.balanceOf("0x000000000000000000000000000000000000dEaD").call((err, result) => {
-//         if(err){
-//           console.log('Error: ', err);
+useEffect(() => {
+    const contract =new web3.eth.Contract(abi,contractAddress)
+    contract.methods.balanceOf("0x000000000000000000000000000000000000dEaD").call((err, result) => {
+        if(err){
+          console.log('Error: ', err);
      
-//         }
-//         console.log(result)
-//         Setburn(result)
-//       });
-//       contract.methods.totalSupply().call((err, result) => {
-//         if(err){
-//           console.log('Error: ', err);
+        }
+        console.log(result)
+        Setburn(result)
+      });
+      contract.methods.totalSupply().call((err, result) => {
+        if(err){
+          console.log('Error: ', err);
      
-//         }
+        }
         
-//         console.log(result)
-//         setTotalSup(result)
-//       });
-//       console.log(abi);
-//       setCirculating(totalSup - burn)
+        console.log(result)
+        setTotalSup(result)
+      });
+      console.log(abi);
+      setCirculating((Number(totalSup) - Number(burn)))
 
-//       console.log(circulating);
+      console.log((circulating),"aaaa");
 
-//   }, []);
+  }, []);
 
 
-
+let a = String(totalSup).slice(0,6)
+let b = String(burn).slice(0,5)
+const cir = Number(a) - Number(b)
+console.log(a);
   return (
     <>
     <NavBar />
@@ -81,18 +63,18 @@ export default function Defi() {
                 <div className="col-xl-4 text-center text-lg-start">
                     <div className="text-white mb-3">
                         <h6 className="bosluk">Total Supply</h6>
-                        <h6 className="orange">355,000 
+                        <h6 className="orange">{a} 
 </h6>
                     </div>
 
                     <div className="text-white mb-3 ">
                         <h6 className="bosluk">Circulation Supply </h6>
-                        <h6 className="orange">2.6502</h6>
+                        <h6 className="orange">{cir}</h6>
                     </div>
 
                     <div className="text-white mb-3">
                         <h6 className="bosluk">Total Burned</h6>
-                        <h6 className="orange">899800000</h6>
+                        <h6 className="orange">{b}</h6>
                     </div>
 
 
@@ -100,12 +82,12 @@ export default function Defi() {
                 <div className="col-xl-4 text-center text-lg-start padding-left  d-flex flex-column justify-content-center">
                     <div className="text-white mb-3">
                         <h6 className="bosluk">Market Cap</h6>
-                        <h6 className="orange">92,806.82085275</h6>
+                        <h6 className="orange">{cir * tokenp}</h6>
                     </div>
 
                     <div className="text-white mb-3">
                         <h6 className="bosluk">RDF Token Price</h6>
-                        <h6 className="orange">$ 681</h6>
+                        <h6 className="orange">$ {tokenp}</h6>
                     </div>
                 </div>
                 <div

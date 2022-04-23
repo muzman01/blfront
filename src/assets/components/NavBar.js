@@ -63,9 +63,9 @@ export default function NavBar() {
                         <a className="nav-link" href="defi">Defi</a>
                      
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link " href="partner">Partners</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <a className="nav-link " href="trendroyal">Notice</a>
                     </li>
