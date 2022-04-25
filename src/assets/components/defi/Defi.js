@@ -9,21 +9,25 @@ import axios from 'axios'
 import Web3 from 'web3'
 import "./Defi.css"
 import abi from "./abi.json"
+import { useWeb3React } from '@web3-react/core';
 
+
+import { injected } from '../../../connector';
 export default function Defi() {
-    const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org/"))
+    const { active, account, library, connector, chainId, activate, deactivate } = useWeb3React();
+    const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org/"),library)
     const [totalSup,setTotalSup] = useState()
     const [burn,Setburn] = useState()
     const [circulating, setCirculating] = useState();
     const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
     const tokenp = 0.62273;
-    const urll = "https://api.coingecko.com/api/v3/coins/binance-smart-chain/contract/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
-    const getTk = async () => {
 
+    async function connect() {
+        try {
 
-           
-        
-    }
+          await activate(injected);
+        } catch (ex) {}
+      }
 useEffect(() => {
     const contract =new web3.eth.Contract(abi,contractAddress)
     contract.methods.balanceOf("0x000000000000000000000000000000000000dEaD").call((err, result) => {
@@ -40,31 +44,20 @@ useEffect(() => {
      
         }
         
-        console.log(result)
+
         setTotalSup(result)
       });
-      console.log(abi);
+  
       setCirculating((Number(totalSup) - Number(burn)))
 
-      console.log((circulating),"aaaa");
 
-  }, []);
-  useEffect(() => {
-    axios
-      .get(
-        "https://api.coingecko.com/api/v3/coins/binance-smart-chain/contract/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
-      )
-      .then((res) => {
-        console.log(res.data);
-      })
-      .catch((error) => console.log(error));
 
   }, []);
 
 let a = String(totalSup).slice(0,6)
 let b = String(burn).slice(0,5)
 const cir = Number(a) - Number(b)
-console.log(a);
+
 const mc = cir * tokenp
 const mc2 = String(mc).slice(0,6)
   return (
@@ -106,7 +99,7 @@ const mc2 = String(mc).slice(0,6)
                 <div
                     className="mt-4 mt-lg-0 col-xl-3 text-center text-lg-start d-flex align-items-center justify-content-center">
                     <img className="img-fluid m-auto" width="70" src={i1} alt=""/>
-                    <button className="btn-add-meta-mask" onClick={getTk}  >Add To Metamask</button>
+                    <button className="btn-add-meta-mask" onClick={connect}  >{active ? <span>{account.slice(0,11)}</span>:<span>Add To Metamask</span>}</button>
                 </div>
 
             </div>

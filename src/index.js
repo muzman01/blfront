@@ -17,8 +17,15 @@ import Notice from './assets/components/pages/Notice';
 import Defi from './assets/components/defi/Defi';
 import Partner from './assets/components/partners/Partner';
 import Trendroyal from './assets/components/trendroyal/Trendroyal';
+import { Web3ReactProvider } from '@web3-react/core';
+import Web3 from 'web3';
+
+function getLibrary(provider) {
+  return new Web3(provider);
+}
 const rootElement = document.getElementById("root");
 render(
+  <Web3ReactProvider getLibrary={getLibrary}>
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
@@ -28,6 +35,7 @@ render(
       <Route path="partner" element={<Partner />} />
       <Route path="trendroyal" element={<Trendroyal />} />
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
+  </Web3ReactProvider>,
   rootElement
 );

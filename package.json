@@ -5,6 +5,7 @@
   "homepage": ".",
   "dependencies": {
     "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
     "aos": "^2.3.4",
     "assert": "^2.0.0",
     "axios": "^0.26.1",
