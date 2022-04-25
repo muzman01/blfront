@@ -19,34 +19,34 @@ export default function Section2() {
 </hr>
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
-                                <h4>Address:</h4>
+                                <h4>Address</h4>
                                 <h5> Ege mahallesi  Alpaslan Türkeş sok. 
                                 NO:18 Trendroyal 2 C blok D:7</h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
-                                <h4>IFO Volume:</h4>
+                                <h4>IFO Volume</h4>
                                 <h5>300.000 USD</h5>
                             </div>
                         </div>
 
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
-                                <h4>Land Area:</h4>
+                                <h4>Land Area</h4>
                                 <h5>Turkey </h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
-                                <h4> Rental Yield:</h4>
+                                <h4> Rental Yield</h4>
                                 <h5>%3.7</h5>
                             </div>
                         </div>
 
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
-                                <h4>Year Built:</h4>
+                                <h4>Year Built</h4>
                                 <h5>2016</h5>
                             </div>
                             <div className="col-4 d-flex flex-column">
-                                <h4>Contract Date:</h4>
+                                <h4>Contract Date</h4>
                                 <h5>08.03.2022</h5>
                             </div>
                         </div>
@@ -65,8 +65,8 @@ export default function Section2() {
 
                         <div className="row justify-content-between mb-3">
                             <div className=" col-6 d-flex flex-column">
-                                <h4>Households:</h4>
-                                <h5>Estate type</h5>
+                                <h4>Estate type</h4>
+                                <h5>Apartment</h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
                                 <h4> Product rating: </h4>
