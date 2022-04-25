@@ -23,10 +23,27 @@ export default function Defi() {
     const tokenp = 0.62273;
 
     async function connect() {
-        try {
-
-          await activate(injected);
-        } catch (ex) {}
+        window.ethereum
+        .request({
+          method: 'wallet_watchAsset',
+          params: {
+            type: 'ERC20',
+            options: {
+              address: '0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb',
+              symbol: 'RDF',
+              decimals: 18,
+             
+            },
+          },
+        })
+        .then((success) => {
+          if (success) {
+            console.log('RV2 successfully added to wallet!')
+          } else {
+            throw new Error('Something went wrong.')
+          }
+        })
+        .catch(console.error)
       }
 useEffect(() => {
     const contract =new web3.eth.Contract(abi,contractAddress)
