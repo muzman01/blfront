@@ -10,7 +10,7 @@ export default function Home() {
                         <h1>
                             Find Your Best Smart Real Estate
                         </h1>
-                        <a href="#">Get Your One</a>
+                        <a href="#sectionEight">Get Your One</a>
                     </div>
                 </div>
                 <div className="col-lg-6" data-aos="fade-down-left">

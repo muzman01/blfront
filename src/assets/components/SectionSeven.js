@@ -9,6 +9,7 @@ import S77 from "../img/EstateInfo-2.png"
 export default function SectionSeven() {
   return (
     <section id="sectionEight" className="sectionEight" data-aos="fade-up">
+        <a href='/notice' style={{textDecoration:"none"}}>
     <div className="container-fluid padding">
         <h1 className="title mb-5">Estate Info</h1>
 
@@ -130,7 +131,7 @@ export default function SectionSeven() {
         </div> */}
 
     </div>
-
+    </a>
 </section>
   )
 }

@@ -11,7 +11,7 @@ export default function Section1() {
             <h2 className="d-inline-block">Trend Royal 2 Project</h2>
             <span>
                 <h4 className="d-inline-block">Estimated revenue:</h4>
-                <h1 className="d-inline-block"> %15</h1>
+                <h1 className="d-inline-block"> %20</h1>
                 <h4 className="d-inline-block">/ year</h4>
             </span>
         </div>
