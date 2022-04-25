@@ -16,7 +16,7 @@ export default function Defi() {
     const [burn,Setburn] = useState()
     const [circulating, setCirculating] = useState();
     const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
-    const tokenp = 0.61409;
+    const tokenp = 0.62273;
     
     const getTk = async () => {
 
@@ -82,7 +82,7 @@ console.log(a);
                 <div className="col-xl-4 text-center text-lg-start padding-left  d-flex flex-column justify-content-center">
                     <div className="text-white mb-3">
                         <h6 className="bosluk">Market Cap</h6>
-                        <h6 className="orange">{cir * tokenp}</h6>
+                        <h6 className="orange">$ {cir * tokenp}</h6>
                     </div>
 
                     <div className="text-white mb-3">
