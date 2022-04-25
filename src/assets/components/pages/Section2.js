@@ -23,10 +23,11 @@ export default function Section2() {
                                 <h5> Ege mahallesi  Alpaslan Türkeş sok. 
                                 NO:18 Trendroyal 2 C blok D:7</h5>
                             </div>
-                            <div className=" col-4 d-flex flex-column">
+                            
+                            {/* <div className=" col-4 d-flex flex-column">
                                 <h4>IFO Volume</h4>
                                 <h5>300.000 USD</h5>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="row justify-content-between mb-3">
@@ -35,9 +36,10 @@ export default function Section2() {
                                 <h5>Turkey </h5>
                             </div>
                             <div className=" col-4 d-flex flex-column">
-                                <h4> Rental Yield</h4>
-                                <h5>%3.7</h5>
+                                <h4>IFO Volume</h4>
+                                <h5>300.000 USD</h5>
                             </div>
+                        
                         </div>
 
                         <div className="row justify-content-between mb-3">
@@ -45,10 +47,11 @@ export default function Section2() {
                                 <h4>Year Built</h4>
                                 <h5>2016</h5>
                             </div>
-                            <div className="col-4 d-flex flex-column">
-                                <h4>Contract Date</h4>
-                                <h5>08.03.2022</h5>
+                            <div className=" col-4 d-flex flex-column">
+                                <h4> Rental Yield</h4>
+                                <h5>%3.7</h5>
                             </div>
+                         
                         </div>
 
 
@@ -57,10 +60,11 @@ export default function Section2() {
                                 <h4>Building Size:</h4>
                                 <h5>300 m²</h5>
                             </div>
-                            <div className=" col-4 d-flex flex-column">
-                                <h4> Product rating: </h4>
-                                <h5>A1</h5>
+                            <div className="col-4 d-flex flex-column">
+                                <h4>Contract Date</h4>
+                                <h5>08.03.2022</h5>
                             </div>
+                       
                         </div>
 
                         <div className="row justify-content-between mb-3">
@@ -68,7 +72,10 @@ export default function Section2() {
                                 <h4>Estate type</h4>
                                 <h5>Apartment</h5>
                             </div>
-                           
+                            <div className=" col-4 d-flex flex-column">
+                                <h4> Product rating: </h4>
+                                <h5>A1</h5>
+                            </div>
                         </div>
 
                     </div>

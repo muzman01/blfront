@@ -11,7 +11,7 @@ import "./Defi.css"
 import abi from "./abi.json"
 import { useWeb3React } from '@web3-react/core';
 
-
+import fav from "../../img/dao.png"
 import { injected } from '../../../connector';
 export default function Defi() {
     const { active, account, library, connector, chainId, activate, deactivate } = useWeb3React();
@@ -32,13 +32,13 @@ export default function Defi() {
               address: '0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb',
               symbol: 'RDF',
               decimals: 18,
-             
+              image: `../../img/dao.png`,
             },
           },
         })
         .then((success) => {
           if (success) {
-            console.log('RV2 successfully added to wallet!')
+            console.log('RDF successfully added to wallet!')
           } else {
             throw new Error('Something went wrong.')
           }
