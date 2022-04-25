@@ -9,7 +9,7 @@ import axios from 'axios'
 import Web3 from 'web3'
 import "./Defi.css"
 import abi from "./abi.json"
-// import { useWeb3React } from "@web3-react/core";
+
 export default function Defi() {
     const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org/"))
     const [totalSup,setTotalSup] = useState()
@@ -17,10 +17,11 @@ export default function Defi() {
     const [circulating, setCirculating] = useState();
     const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
     const tokenp = 0.62273;
-    
+    const urll = "https://api.coingecko.com/api/v3/coins/binance-smart-chain/contract/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
     const getTk = async () => {
 
-      
+
+           
         
     }
 useEffect(() => {
@@ -48,12 +49,24 @@ useEffect(() => {
       console.log((circulating),"aaaa");
 
   }, []);
+  useEffect(() => {
+    axios
+      .get(
+        "https://api.coingecko.com/api/v3/coins/binance-smart-chain/contract/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
+      )
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((error) => console.log(error));
 
+  }, []);
 
 let a = String(totalSup).slice(0,6)
 let b = String(burn).slice(0,5)
 const cir = Number(a) - Number(b)
 console.log(a);
+const mc = cir * tokenp
+const mc2 = String(mc).slice(0,6)
   return (
     <>
     <NavBar />
@@ -82,7 +95,7 @@ console.log(a);
                 <div className="col-xl-4 text-center text-lg-start padding-left  d-flex flex-column justify-content-center">
                     <div className="text-white mb-3">
                         <h6 className="bosluk">Market Cap</h6>
-                        <h6 className="orange">$ {cir * tokenp}</h6>
+                        <h6 className="orange">$ {mc2}</h6>
                     </div>
 
                     <div className="text-white mb-3">
