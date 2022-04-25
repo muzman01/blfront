@@ -57,10 +57,10 @@ export default function Section2() {
                                 <h4>Building Size:</h4>
                                 <h5>300 m²</h5>
                             </div>
-                            {/* <div className=" col-4 d-flex flex-column">
-                                <h4>Tax Rate</h4>
-                                <h5>%45</h5>
-                            </div> */}
+                            <div className=" col-4 d-flex flex-column">
+                                <h4> Product rating: </h4>
+                                <h5>A1</h5>
+                            </div>
                         </div>
 
                         <div className="row justify-content-between mb-3">
@@ -68,10 +68,7 @@ export default function Section2() {
                                 <h4>Estate type</h4>
                                 <h5>Apartment</h5>
                             </div>
-                            <div className=" col-4 d-flex flex-column">
-                                <h4> Product rating: </h4>
-                                <h5>A1</h5>
-                            </div>
+                           
                         </div>
 
                     </div>
