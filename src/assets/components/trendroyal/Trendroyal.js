@@ -53,41 +53,39 @@ export default function Trendroyal() {
             <div className="swiper newsSwiper mt-4">
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
-                  <a href="https://blokfield.gitbook.io/reitsdao-finance/faq" className="ma" target="_blank">
+                  <a href="https://medium.com/@Blokfield.inc/what-do-you-know-about-reitsdao-c95196655cdb" className="ma" target="_blank">
                     {" "}
                     <div className="news-card">
                       <p>
-                        Discloses Reits DAO’s first investment IPO schedule and
-                        fundraising amount.
+                      What do you know about ReitsDAO?
                       </p>
-                      <h6>06.11.2022</h6>
+                      <h6>27.04.2022</h6>
                       <img src={T1} alt="" />
                     </div>
                   </a>
                 </div>
                 <div className="swiper-slide">
-                <a href="https://blokfield.gitbook.io/reitsdao-finance/faq" className="ma" target="_blank">
+                <a href="https://medium.com/@Blokfield.inc/what-is-a-real-estate-investment-trust-reit-2235c8099335" className="ma" target="_blank">
                   <div className="news-card">
                     <p>
-                      We are announcing the first investment product of Reits
-                      DAO.
+                    What Is a Real Estate Investment Trust (REIT)?
                     </p>
-                    <h6>06.11.2022</h6>
+                    <h6>27.04.2022</h6>
                     <img src={T1} alt="" />
                   </div>
                   </a>
                 </div>
                 <div className="swiper-slide">
-                <a href="https://blokfield.gitbook.io/reitsdao-finance/faq" className="ma" target="_blank">
+                <a href="https://medium.com/@Blokfield.inc/understand-the-concept-of-reitsdao-on-the-real-estate-226d05247bb7" className="ma" target="_blank">
                   <div className="news-card">
-                    <p>Trend Royale 2nd Investment Site Pre-Tour Schedule</p>
-                    <h6>06.11.2022</h6>
+                    <p>Understand the concept of REITsDAO on the real estate</p>
+                    <h6>27.04.2022</h6>
                     <img src={T1} alt="" />
                   </div>
                   </a>
                 </div>
                 <div className="swiper-slide">
-                <a href="https://blokfield.gitbook.io/reitsdao-finance/faq" className="ma" target="_blank">
+                {/* <a href="https://blokfield.gitbook.io/reitsdao-finance/faq" className="ma" target="_blank">
                   <div className="news-card">
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -96,7 +94,7 @@ export default function Trendroyal() {
                     <h6>06.11.2022</h6>
                     <img src={T1} alt="" />
                   </div>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
