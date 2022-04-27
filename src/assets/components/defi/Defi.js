@@ -20,7 +20,8 @@ export default function Defi() {
     const [burn,Setburn] = useState()
     const [circulating, setCirculating] = useState();
     const contractAddress='0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb'
-    const tokenp = 0.60261;
+    const tokenp =0.56335
+    ;
 
     async function connect() {
         window.ethereum
