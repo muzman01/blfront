@@ -1,22 +1,19 @@
-import React from 'react'
-import NavBar from '../NavBar'
-import Footer from '../Footer'
-import "./Partner.css"
-import Userp from  "../../img/icons8-user-64.png"
+import React from "react";
+import NavBar from "../NavBar";
+import Footer from "../Footer";
+import "./Partner.css";
+import Userp from "../../img/icons8-user-64.png";
 export default function Partner() {
   return (
     <>
-        <NavBar />
-        <section className="partners" id="partners" data-aos="zoom-out">
-
+      <NavBar />
+      <section className="partners" id="partners" data-aos="zoom-out">
         <div className="container">
-            <h2>Partners</h2>
-            <div className="d-flex icons flex-column flex-md-row align-items-center">
-
-                <div className="icon-item mb-5 mb-md-0">
-
-                    <div className="circle d-flex justify-content-center align-items-center">
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="53.215" height="59.39"
+          <h2>Partners</h2>
+          <div className="d-flex icons flex-column flex-md-row align-items-center">
+            <div className="icon-item mb-5 mb-md-0">
+              <div className="circle d-flex justify-content-center align-items-center">
+                {/* <svg xmlns="http://www.w3.org/2000/svg" width="53.215" height="59.39"
                             viewBox="0 0 53.215 59.39">
                             <g data-name="Group 307">
                                 <path data-name="Path 192"
@@ -27,15 +24,14 @@ export default function Partner() {
                                     transform="translate(-373.812 93.819)" style="fill:#fd6920" />
                             </g>
                         </svg> */}
-                        <img src={Userp} />
-                    </div>
-                    <h3>Estate Agent</h3>
-                </div>
+                <img src={Userp} />
+              </div>
+              <h3>Estate Agent</h3>
+            </div>
 
-                <div className="icon-item">
-
-                    <div className="circle d-flex justify-content-center align-items-center">
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="53.215" height="59.39"
+            <div className="icon-item">
+              <div className="circle d-flex justify-content-center align-items-center">
+                {/* <svg xmlns="http://www.w3.org/2000/svg" width="53.215" height="59.39"
                             viewBox="0 0 53.215 59.39">
                             <g data-name="Group 307">
                                 <path data-name="Path 192"
@@ -46,22 +42,21 @@ export default function Partner() {
                                     transform="translate(-373.812 93.819)" style="fill:#fd6920" />
                             </g>
                         </svg> */}
-                         <img src={Userp} width={64} height={64} />
-                    </div>
-                    <h3>Accountant</h3>
-                </div>
-
+                <img src={Userp} width={64} height={64} />
+              </div>
+              <h3>Accountant</h3>
             </div>
-            <h3 className="mt-5 mb-4">Defi Partners</h3>
-            <div className="japonca row justify-content-center">
-                <h4 className="col-lg-3 mb-4 mb-xl-0">3월 프로젝트</h4>
-                <h4 className="col-lg-3 mb-4 mb-xl-0">야나</h4>
-                <h4 className="col-lg-3 mb-4 mb-xl-0">허니비</h4>
-                <h4 className="col-lg-3 mb-4 mb-xl-0">외</h4>
-            </div>
+          </div>
+          <h3 className="mt-5 mb-4">Defi Partners</h3>
+          <div className="japonca row justify-content-center">
+            <h4 className="col-lg-3 mb-4 mb-xl-0">3월 프로젝트</h4>
+            <h4 className="col-lg-3 mb-4 mb-xl-0">야나</h4>
+            <h4 className="col-lg-3 mb-4 mb-xl-0">허니비</h4>
+            <h4 className="col-lg-3 mb-4 mb-xl-0">외</h4>
+          </div>
         </div>
-    </section>
-        <Footer />
+      </section>
+      <Footer />
     </>
-  )
+  );
 }

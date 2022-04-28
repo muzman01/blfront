@@ -53,11 +53,41 @@ export default function Trendroyal() {
             <div className="swiper newsSwiper mt-4">
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
-                  <a href="https://medium.com/@Blokfield.inc/what-do-you-know-about-reitsdao-c95196655cdb" className="ma" target="_blank">
+                  <a
+                    href="https://medium.com/@Blokfield.inc/what-do-you-know-about-reitsdao-c95196655cdb"
+                    className="ma"
+                    target="_blank"
+                  >
                     {" "}
                     <div className="news-card">
+                      <p>What do you know about ReitsDAO?</p>
+                      <h6>27.04.2022</h6>
+                      <img src={T1} alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div className="swiper-slide">
+                  <a
+                    href="https://medium.com/@Blokfield.inc/what-is-a-real-estate-investment-trust-reit-2235c8099335"
+                    className="ma"
+                    target="_blank"
+                  >
+                    <div className="news-card">
+                      <p>What Is a Real Estate Investment Trust (REIT)?</p>
+                      <h6>27.04.2022</h6>
+                      <img src={T1} alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div className="swiper-slide">
+                  <a
+                    href="https://medium.com/@Blokfield.inc/understand-the-concept-of-reitsdao-on-the-real-estate-226d05247bb7"
+                    className="ma"
+                    target="_blank"
+                  >
+                    <div className="news-card">
                       <p>
-                      What do you know about ReitsDAO?
+                        Understand the concept of REITsDAO on the real estate
                       </p>
                       <h6>27.04.2022</h6>
                       <img src={T1} alt="" />
@@ -65,27 +95,7 @@ export default function Trendroyal() {
                   </a>
                 </div>
                 <div className="swiper-slide">
-                <a href="https://medium.com/@Blokfield.inc/what-is-a-real-estate-investment-trust-reit-2235c8099335" className="ma" target="_blank">
-                  <div className="news-card">
-                    <p>
-                    What Is a Real Estate Investment Trust (REIT)?
-                    </p>
-                    <h6>27.04.2022</h6>
-                    <img src={T1} alt="" />
-                  </div>
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                <a href="https://medium.com/@Blokfield.inc/understand-the-concept-of-reitsdao-on-the-real-estate-226d05247bb7" className="ma" target="_blank">
-                  <div className="news-card">
-                    <p>Understand the concept of REITsDAO on the real estate</p>
-                    <h6>27.04.2022</h6>
-                    <img src={T1} alt="" />
-                  </div>
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                {/* <a href="https://blokfield.gitbook.io/reitsdao-finance/faq" className="ma" target="_blank">
+                  {/* <a href="https://blokfield.gitbook.io/reitsdao-finance/faq" className="ma" target="_blank">
                   <div className="news-card">
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -785,7 +795,8 @@ export default function Trendroyal() {
                         style={{ cursor: "pointer" }}
                         onClick={() => setisqa16(true)}
                       >
-                         What if the real estate owned by ReitsDAO is damaged or destroyed?
+                        What if the real estate owned by ReitsDAO is damaged or
+                        destroyed?
                       </p>
                       {!isqa16 ? (
                         <p
@@ -808,7 +819,14 @@ export default function Trendroyal() {
                         style={{ cursor: "pointer" }}
                         onClick={() => setisqa16(false)}
                       >
-                        All properties owned by ReitsDAO are insured. Therefore, if real estate is damaged or destroyed, it will be handled according to the registered property insurance coverage, and the company will directly respond and solve it. In addition, if a critical matter occurs in the building and the decision of the holder is required, voting is conducted through the DAO system, and it is decided according to the opinions of the holders.
+                        All properties owned by ReitsDAO are insured. Therefore,
+                        if real estate is damaged or destroyed, it will be
+                        handled according to the registered property insurance
+                        coverage, and the company will directly respond and
+                        solve it. In addition, if a critical matter occurs in
+                        the building and the decision of the holder is required,
+                        voting is conducted through the DAO system, and it is
+                        decided according to the opinions of the holders.
                       </p>
                     ) : null}
                   </div>
