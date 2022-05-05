@@ -22,7 +22,7 @@ export default function Defi() {
   const [totalSup, setTotalSup] = useState();
   const [burn, Setburn] = useState();
   const [circulating, setCirculating] = useState();
-  const [tknPrc, setTknPrc] = useState()
+  const [tknPrc, setTknPrc] = useState();
   const contractAddress = "0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb";
   const tokenp = 0.54376;
   async function connect() {
@@ -69,28 +69,33 @@ export default function Defi() {
 
     setCirculating(Number(totalSup) - Number(burn));
   }, []);
-  useEffect(()=>{
-    async function getPriceFeed(){
+  useEffect(() => {
+    async function getPriceFeed() {
       try {
-          const urlSite = "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
-          const config = {
-            headers: { "Access-Control-Allow-Origin": "https://swap.arken.finance" },
-         };
-          const data = await axios.get("https://fronttest1.vercel.app/https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb")
-          console.log(data.data.price);
-          setTknPrc(data.data.price)
+        const urlSite =
+          "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb";
+        const config = {
+          headers: {
+            "Access-Control-Allow-Origin": "https://swap.arken.finance",
+          },
+        };
+        const data = await axios.get(
+          "https://api.pancakeswap.info/api/v2/tokens/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
+        );
+        console.log(data.data.data.price);
+        setTknPrc(data.data.price);
       } catch (error) {
-          console.log(error);
+        console.log(error);
       }
-  }
-  
-  getPriceFeed()
-  },[tknPrc])
+    }
+
+    getPriceFeed();
+  }, [tknPrc]);
 
   let a = String(totalSup).slice(0, 6);
   let b = String(burn).slice(0, 5);
   const cir = Number(a) - Number(b);
-  let prc = String(tknPrc).slice(0,7)
+  let prc = String(tknPrc).slice(0, 7);
   const mc = cir * tknPrc;
   const mc2 = String(mc).slice(0, 6);
   return (
