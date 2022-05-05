@@ -71,5 +71,5 @@
     "react-router-dom": "^6.3.0",
     "tailwindcss": "^3.0.23"
   },
-  "proxy": "https://fronttest1.vercel.app"
+  "proxy": "https://swap.arken.finance"
 }
