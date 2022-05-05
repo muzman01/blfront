@@ -73,10 +73,7 @@ export default function Defi() {
     async function getPriceFeed(){
       try {
           const urlSite = "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
-          const config = {
-            headers: { "Access-Control-Allow-Origin": "https://arken.finance" },
-         };
-          const data = await axios.get("https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb",config)
+          const data = await axios.get("https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb",{mode:'cors'})
           console.log(data.data.price);
           setTknPrc(data.data.price)
       } catch (error) {
