@@ -22,6 +22,7 @@ export default function Defi() {
   const [totalSup, setTotalSup] = useState();
   const [burn, Setburn] = useState();
   const [circulating, setCirculating] = useState();
+  const [tknPrc, setTknPrc] = useState()
   const contractAddress = "0xAA731bB4bCd8C4A69C8A86E67E50942EE243debb";
   const tokenp = 0.54376;
   async function connect() {
@@ -68,12 +69,29 @@ export default function Defi() {
 
     setCirculating(Number(totalSup) - Number(burn));
   }, []);
+  useEffect(()=>{
+    async function getPriceFeed(){
+      try {
+          const urlSite = "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
+          const {data} = await axios({
+              method:"GET",
+              url:urlSite
+          })
+          console.log(data.price);
+          setTknPrc(data.price)
+      } catch (error) {
+          console.log(error);
+      }
+  }
+  
+  getPriceFeed()
+  },[tknPrc])
 
   let a = String(totalSup).slice(0, 6);
   let b = String(burn).slice(0, 5);
   const cir = Number(a) - Number(b);
-
-  const mc = cir * tokenp;
+  let prc = String(tknPrc).slice(0,7)
+  const mc = cir * tknPrc;
   const mc2 = String(mc).slice(0, 6);
   return (
     <>
@@ -105,7 +123,7 @@ export default function Defi() {
 
               <div className="text-white mb-3">
                 <h6 className="bosluk">RDF Token Price</h6>
-                <h6 className="orange">$ {tokenp}</h6>
+                <h6 className="orange">$ {prc}</h6>
               </div>
             </div>
             <div className="mt-4 mt-lg-0 col-xl-3 text-center text-lg-start d-flex align-items-center justify-content-center">
