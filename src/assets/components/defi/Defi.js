@@ -72,13 +72,20 @@ export default function Defi() {
   useEffect(()=>{
     async function getPriceFeed(){
       try {
-          const urlSite = "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
-          const config = {
-            headers: { "Access-Control-Allow-Origin": "http://localhost:3000" },
-         };
-          const data = await axios.get("https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb",config)
-          console.log(data.data.price);
-          setTknPrc(data.data.price)
+        //   const urlSite = "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
+        //   const config = {
+        //     headers: { "Access-Control-Allow-Origin": "http://localhost:3000" },
+        //  };
+        //   const data = await axios.get("https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb",config)
+        //   console.log(data.data.price);
+        //   setTknPrc(data.data.price)
+        const urlSite = "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
+        const {data} = await axios({
+            method:"GET",
+            url:urlSite
+        })
+        
+       console.log(data.price);
       } catch (error) {
           console.log(error);
       }
