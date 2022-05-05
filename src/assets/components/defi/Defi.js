@@ -83,7 +83,7 @@ export default function Defi() {
           "https://api.pancakeswap.info/api/v2/tokens/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
         );
         console.log(data.data.data.price);
-        setTknPrc(data.data.price);
+        setTknPrc(data.data.data.price);
       } catch (error) {
         console.log(error);
       }
