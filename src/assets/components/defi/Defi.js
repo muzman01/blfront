@@ -72,7 +72,7 @@ export default function Defi() {
   useEffect(()=>{
     async function getPriceFeed(){
       try {
-          const urlSite = "https://fronttest1.vercel.app/https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
+          const urlSite = "https://api.arken.finance/v2/token/price/bsc/0xaa731bb4bcd8c4a69c8a86e67e50942ee243debb"
           const {data} = await axios({
               method:"GET",
               url:urlSite
