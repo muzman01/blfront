@@ -153,7 +153,7 @@ export default function Section3() {
             </div>
             <div className="col-xl-3  col-lg-6 mb-2 mb-lg-0">
               <h4>
-                <button className="alink" onClick={() => setModalShow2(true)}>
+                <button className="alink" onClick={() => setModalShow4(true)}  >
                   Registered Documents
                 </button>
               </h4>
@@ -161,14 +161,14 @@ export default function Section3() {
 
             <div className="col-xl-3 col-lg-6 mb-2 mb-lg-0">
               <h4>
-              <button className="alink" onClick={() => setModalShow3(true)}>
+              <button className="alink" onClick={() => setModalShow2(true)}>
                   Contract Document
                 </button>
               </h4>
             </div>
             <div className="col-xl-3 col-lg-6 mb-2 mb-lg-0">
               <h4>
-              <button className="alink" onClick={() => setModalShow4(true)}>
+              <button className="alink" onClick={() => setModalShow3(true)} >
                   Reits Dao Company Document
                 </button>
               </h4>
