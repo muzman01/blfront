@@ -18,12 +18,12 @@ export default function Section1() {
         </div>
         <div className="d-flex align-items-center justify-content-between">
           <h5 className="d-inline-block">IFO date: 00 - March 2022</h5>
-          <h5 className="d-inline-block">300K Funding Closed</h5>
+          <h5 className="d-inline-block">350K Funding Closed</h5>
         </div>
         <div className="yüzdelikbarout">
           <div className="yuzdelikbarin"></div>
         </div>
-        <h3 className="text-end yuzderakam">%79</h3>
+        <h3 className="text-end yuzderakam"> 77.8%</h3>
       </div>
 
       <div className="row mt-5">
